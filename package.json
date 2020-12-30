@@ -1,0 +1,36 @@
+{
+  "name": "walmartlabs-store-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./src/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwangxx0129/walmartlabs-store-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwangxx0129/walmartlabs-store-server/issues"
+  },
+  "homepage": "https://github.com/mwangxx0129/walmartlabs-store-server#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "csvtojson": "^1.1.12",
+    "hapi": "^17.4.0",
+    "hapi-async-handler": "^1.0.3",
+    "lodash": "^4.17.10",
+    "memory-cache": "^0.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "should": "^13.2.1",
+    "underscore": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "supertest": "^3.1.0"
+  }
+}
